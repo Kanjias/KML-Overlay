@@ -15,7 +15,7 @@
 
     function displayKml(){
         if (!window.google || !window.map || !window.map.__gm) return window.setTimeout(displayKml, 1000);
-        var src = 'https://tmp.kanjias.dev/TFR.kml';
+        var src = 'https://example.com/example.kml';
 
         var ctaLayer = new google.maps.KmlLayer({
             url: src,
